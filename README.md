@@ -9,6 +9,9 @@ TÍTULO DEL TEMA DE INVESTIGACIÓN
 "MÉTODOS DE DICCIONARIO - COMPRESIÓN DE DATOS"
 -------------------------------------------------
 PRESENTADO POR:
+-------------------------------------------------
 JULIO CÉSAR MITAC QUISPE
+-------------------------------------------------
 BRYAN CHAVEZ UMERES
+-------------------------------------------------
 LIMA 2016
