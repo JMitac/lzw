@@ -19,12 +19,12 @@
                     <p><input class="btn btn-primary" type="submit" value="Continue &rarr;" /></p>
                 </form>
                 <div id="out">
-                    <h2>Comprimido:</h2>
+                    <h2>Sin Comprimir:</h2>
                     <div id="uncom">
                         
                     </div>
                     
-                    <h2>Mensaje Original:</h2>
+                    <h2>Comprimido:</h2>
                     <div id="com">
                         
                     </div>
@@ -51,7 +51,7 @@
                 var encoded = encode(val);
             
             D.getElementById('uncom').innerHTML = "<p>" + size(val) + " bytes</p>";
-            //D.getElementById('com').innerHTML =  "<p>" + size(encoded) + " bytes:</p><textarea  rows=\"8\" cols=\"80\">"+encoded+"</textarea>";
+            D.getElementById('com').innerHTML =  "<p>" + size(encoded) + " bytes:</p><textarea  rows=\"8\" cols=\"80\">"+encoded+"</textarea>";
             
             var decoded = decode(encoded);
             D.getElementById('decom').innerHTML = decoded;
